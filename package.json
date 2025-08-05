@@ -1,0 +1,32 @@
+{
+  "name": "estudos_node_solid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laerte-Cordeiro/Estudos_node_SOLID.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laerte-Cordeiro/Estudos_node_SOLID/issues"
+  },
+  "homepage": "https://github.com/Laerte-Cordeiro/Estudos_node_SOLID#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "fastify": "^5.4.0"
+  }
+}
