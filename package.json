@@ -2,7 +2,7 @@
   "name": "estudos_node_solid",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "start": "node build/server.js",
@@ -21,12 +21,22 @@
   "homepage": "https://github.com/Laerte-Cordeiro/Estudos_node_SOLID#readme",
   "description": "",
   "devDependencies": {
-    "@types/node": "^24.2.0",
-    "tsup": "^8.5.0",
-    "tsx": "^4.20.3",
-    "typescript": "^5.9.2"
+    "@eslint/js": "9.32.0",
+    "@eslint/json": "0.13.1",
+    "@rocketseat/eslint-config": "2.2.2",
+    "@types/node": "24.2.0",
+    "eslint": "9.32.0",
+    "globals": "16.3.0",
+    "prisma": "6.13.0",
+    "tsup": "8.5.0",
+    "tsx": "4.20.3",
+    "typescript": "5.9.2",
+    "typescript-eslint": "8.39.0"
   },
   "dependencies": {
-    "fastify": "^5.4.0"
+    "@prisma/client": "6.13.0",
+    "dotenv": "17.2.1",
+    "fastify": "5.4.0",
+    "zod": "4.0.14"
   }
 }
